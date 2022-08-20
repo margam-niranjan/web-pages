@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{
     font-family: 'Noto Sans Display', sans-serif;
@@ -26,6 +26,13 @@ body{
     border-bottom: 1px solid silver;
     font-size: 3rem;
     font-family: 'Satisfy', cursive;
+}
+.container h2{
+
+    padding: 0 0 20px 33px;
+    border-bottom: 1px solid silver;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 .container form{
     padding: 0 40px;
@@ -137,6 +144,51 @@ input[type="submit"]:hover{
 }
 .signup a{
     color: #2691d9;
+    text-decoration: none;
+
+
+}
+.signup a:hover{
     text-decoration: underline;
 }
+@media (min-width:320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .container{
+        width: 280px;
+    }
+}
 
+@media (min-width:480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .container {
+        width: 400px;
+    }
+}
+
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .container {
+            width: 480px;
+        }
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .container {
+            width: 480px;
+        }
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .container {
+            width: 480px;
+        }
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+    .container {
+            width: 480px;
+        }
+}
