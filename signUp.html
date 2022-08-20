@@ -9,21 +9,36 @@
   </head>
   <body>
     <div class="container">
+      <h2>Sign-Up</h2>
       <form method="post">
+        <div class="txt_field">
+          <input type="text" required />
+          <span></span>
+          <label>Full Name</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" required />
+          <span></span>
+          <label>Mobile Number or Email</label>
+        </div>
         <div class="txt_field">
           <input type="text" required />
           <span></span>
           <label>Username</label>
         </div>
+
         <div class="txt_field">
-          <input type="password" required />
+          <input type="text" required />
           <span></span>
           <label>Password</label>
         </div>
-        <div class="forgot">Forgot Password</div>
-        <input type="submit" value="Login" class="btn" />
+        <div class="aggrement">
+          By clicking Sign-up you are agreeing to the
+          <a href="#">terms and conditions</a>, privacy policy and cookie policy
+        </div>
+        <input type="submit" value="Sign-up" class="btn sign-btn" />
         <div class="signup">
-          Not a member? <a href="/signUp.html">SignUp</a>
+          Already a member? <a href="/index.html">Login</a>
         </div>
       </form>
     </div>
