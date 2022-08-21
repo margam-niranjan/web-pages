@@ -23,10 +23,16 @@ body {
 }
 
 .container h1 {
-    padding: 0 0 20px 33px;
+    padding: 0 0 20px 40px;
     border-bottom: 1px solid silver;
     font-size: 3rem;
     font-family: 'Satisfy', cursive
+}
+
+.container h1 a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 .container h2 {
@@ -169,7 +175,7 @@ input[type="submit"]:hover {
 
 @media (min-width:320px) {
     .container {
-        width: 280px
+        width: 280px;
     }
 }
 
@@ -181,8 +187,9 @@ input[type="submit"]:hover {
 
 @media (min-width:600px) {
     .container {
-        width: 480px
+        width: 480px;
     }
+
 }
 
 @media (min-width:801px) {
@@ -202,6 +209,18 @@ input[type="submit"]:hover {
         width: 480px
     }
 }
+@media(max-width:420px){
+    body {
+           background: none;
+        }
+     .container h1 {
+                    border: none;
+                }
+        
+     .container {
+                    border: none;
+                }
+}
 
 
 
@@ -217,7 +236,7 @@ input[type="submit"]:hover {
 
 
 .aggrement{
-    color: rgb(174, 174, 174);
+    color: rgb(174,174,174);
     font-size: 13px;
     padding-bottom: 20px;
 }
