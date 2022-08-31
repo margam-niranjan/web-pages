@@ -11,6 +11,25 @@ body {
     overflow: hidden
 }
 
+h1{
+    padding: 0 0 20px 40px;
+    border-bottom: 1px solid silver;
+    font-size: 4rem;
+    font-family: 'Satisfy', cursive
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+p{
+    padding: 0 0 20px 40px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
 .container {
     position: absolute;
     top: 50%;
@@ -211,7 +230,11 @@ input[type="submit"]:hover {
 }
 @media(max-width:420px){
     body {
-           background: none;
+           background: #fff;
+        }
+        .container{
+            background-color: #fff;
+            width: 360px;
         }
      .container h1 {
                     border: none;
@@ -221,7 +244,24 @@ input[type="submit"]:hover {
                     border: none;
                 }
 }
+@media(max-width:320px) {
+    body {
+        background: #fff;
+    }
 
+    .container {
+        background-color: #fff;
+        width: 280px;
+    }
+
+    .container h1 {
+        border: none;
+    }
+
+    .container {
+        border: none;
+    }
+}
 
 
 
