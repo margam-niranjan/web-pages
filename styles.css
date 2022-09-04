@@ -11,23 +11,25 @@ body {
     overflow: hidden
 }
 
-h1{
+h1 {
     padding: 0 0 20px 40px;
     border-bottom: 1px solid silver;
     font-size: 4rem;
     font-family: 'Satisfy', cursive
 }
-a{
+
+a {
     text-decoration: none;
-    color: black;
-    cursor: pointer;
+    color: #000;
+    cursor: pointer
 }
-p{
+
+p {
     padding: 0 0 20px 40px;
-    color: black;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.5rem
 }
 
 .container {
@@ -48,10 +50,10 @@ p{
     font-family: 'Satisfy', cursive
 }
 
-.container h1 a{
+.container h1 a {
     text-decoration: none;
-    color: black;
-    cursor: pointer;
+    color: #000;
+    cursor: pointer
 }
 
 .container h2 {
@@ -148,14 +150,16 @@ form .txt_field {
 
 .forgot {
     margin: -5px 0 20px 5px;
-    cursor: pointer;
+    cursor: pointer
 }
-.forgot a{
+
+.forgot a {
     text-decoration: none;
-    color: #a6a6a6;
+    color: #a6a6a6
 }
+
 .forgot:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 input [type="submit"] {
@@ -194,7 +198,7 @@ input[type="submit"]:hover {
 
 @media (min-width:320px) {
     .container {
-        width: 280px;
+        width: 280px
     }
 }
 
@@ -206,9 +210,8 @@ input[type="submit"]:hover {
 
 @media (min-width:600px) {
     .container {
-        width: 480px;
+        width: 480px
     }
-
 }
 
 @media (min-width:801px) {
@@ -228,62 +231,56 @@ input[type="submit"]:hover {
         width: 480px
     }
 }
-@media(max-width:420px){
+
+@media(max-width:420px) {
     body {
-           background: #fff;
-        }
-        .container{
-            background-color: #fff;
-            width: 360px;
-        }
-     .container h1 {
-                    border: none;
-                }
-        
-     .container {
-                    border: none;
-                }
-}
-@media(max-width:320px) {
-    body {
-        background: #fff;
+        background: #fff
     }
 
     .container {
         background-color: #fff;
-        width: 280px;
+        width: 360px
     }
 
     .container h1 {
-        border: none;
+        border: none
     }
 
     .container {
-        border: none;
+        border: none
     }
 }
 
+@media(max-width:320px) {
+    body {
+        background: #fff
+    }
 
+    .container {
+        background-color: #fff;
+        width: 280px
+    }
 
-/* ----------X-----------Login page close--------------X------- */
+    .container h1 {
+        border: none
+    }
 
+    .container {
+        border: none
+    }
+}
 
-
-
-/* --------------------------Sign-up page--------------------------- */
-
-
-
-
-.aggrement{
-    color: rgb(174,174,174);
+.aggrement {
+    color: rgb(174, 174, 174);
     font-size: 13px;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
-.aggrement a{
+
+.aggrement a {
     color: rgb(204, 196, 196);
-    text-decoration: none;
+    text-decoration: none
 }
-.aggrement a:hover{
-    text-decoration: underline;
+
+.aggrement a:hover {
+    text-decoration: underline
 }
